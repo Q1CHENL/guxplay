@@ -10,7 +10,7 @@ uxplay = None
 def main():
     indicator = appindicator.Indicator.new(
         "guxplay",
-        os.getcwd() + "/icon.png",
+        "/usr/share/icons/hicolor/48x48/apps/guxplay-icon.png",
         appindicator.IndicatorCategory.APPLICATION_STATUS)
     indicator.set_status(appindicator.IndicatorStatus.ACTIVE)
     indicator.set_menu(menu())
