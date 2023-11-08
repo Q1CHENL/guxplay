@@ -1,3 +1,4 @@
+import os
 import gi
 import subprocess
 gi.require_version('Gtk', '3.0')
@@ -9,7 +10,7 @@ uxplay = None
 def main():
     indicator = appindicator.Indicator.new(
         "guxplay",
-        "system-run",
+        os.getcwd() + "/icon.png",
         appindicator.IndicatorCategory.APPLICATION_STATUS)
     indicator.set_status(appindicator.IndicatorStatus.ACTIVE)
     indicator.set_menu(menu())
