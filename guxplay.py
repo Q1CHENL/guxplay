@@ -32,7 +32,7 @@ def uxplay_on(source, off):
     global uxplay
     if source.get_active():
         if uxplay is None:
-            uxplay = subprocess.Popen(['uxplay'])
+            uxplay = subprocess.Popen(['uxplay', '-vsync', 'no'])
             indicator.set_icon_full(icon_path_on, "Icon Description")
             if off.get_active():
                 off.set_active(False)
