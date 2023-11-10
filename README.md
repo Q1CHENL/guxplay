@@ -1,5 +1,5 @@
 # GUxPlay
-A GUI system tray wrapper for [UxPlay](https://github.com/FDH2/UxPlay)
+A GUI system tray wrapper for [UxPlay](https://github.com/FDH2/UxPlay) made with GTK3.
 
 ## Requirements
 - gtk3
