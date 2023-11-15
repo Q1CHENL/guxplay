@@ -1,6 +1,6 @@
 # GUxPlay
 
-A system tray wrapper for [UxPlay](https://github.com/FDH2/UxPlay)
+A GUI system tray wrapper for [UxPlay](https://github.com/FDH2/UxPlay) made with GTK3.
 
 ## Requirements
 
@@ -16,3 +16,7 @@ A system tray wrapper for [UxPlay](https://github.com/FDH2/UxPlay)
 
 ![UI](assets/screenshot-on.png)
 ![UI](assets/screenshot-off.png)
+
+## Note
+
+The program has only been tested on **Fedora Linux 38** with **GNOME 44.6**
