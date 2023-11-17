@@ -12,8 +12,8 @@ install:
 	cat guxplay.py >> guxplay
 	chmod +x guxplay
 	sudo install -Dm755 guxplay /usr/local/bin/guxplay
-	sudo cp icon-on.png /usr/share/icons/hicolor/48x48/apps/guxplay-on.png
-	sudo cp icon-off.png /usr/share/icons/hicolor/48x48/apps/guxplay-off.png
+	sudo cp assets/icon-on.png /usr/share/icons/hicolor/48x48/apps/guxplay-on.png
+	sudo cp assets/icon-off.png /usr/share/icons/hicolor/48x48/apps/guxplay-off.png
 	sudo gtk-update-icon-cache /usr/share/icons/hicolor
 
 uninstall:
