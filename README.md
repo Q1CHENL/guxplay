@@ -19,4 +19,4 @@ A GUI system tray wrapper for [UxPlay](https://github.com/FDH2/UxPlay) made with
 
 ## Note
 
-The program has only been tested on **Fedora Linux 38** with **GNOME 44.6**
+The program has only been tested on **Fedora Linux 38** with **GNOME 44.6** and **Fedora Linux 39** with **45.1**.
