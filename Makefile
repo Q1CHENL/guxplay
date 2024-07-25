@@ -15,6 +15,7 @@ install:
 	sudo cp assets/icon-on.png /usr/share/icons/hicolor/48x48/apps/guxplay-on.png
 	sudo cp assets/icon-off.png /usr/share/icons/hicolor/48x48/apps/guxplay-off.png
 	sudo gtk-update-icon-cache /usr/share/icons/hicolor
+	sudo cp guxplay.desktop /usr/share/applications/guxplay.desktop
 
 uninstall:
 	sudo rm /usr/local/bin/guxplay

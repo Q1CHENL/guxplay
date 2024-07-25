@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=GUxPlay
+Exec=/usr/local/bin/guxplay
+Icon=/usr/share/icons/hicolor/48x48/apps/guxplay-off.png
+Type=Application
+Categories=Utility;Application;
